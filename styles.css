@@ -1,0 +1,137 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #011F3F;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  color: #FFD460;
+  margin: 0;
+  margin: 20px;
+}
+.boxes{
+  margin-top: 70px;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.red{
+  width: 180px;
+  height: 180px;
+  background-color: red;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  border: 7px solid black
+}
+.blue{
+  width: 180px;
+  height: 180px;
+  background-color: blue;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  border: 7px solid black
+}
+.green{
+  width: 180px;
+  height: 180px;
+  background-color: green;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  border: 7px solid black
+}
+.yellow{
+  width: 180px;
+  height: 180px;
+  background-color: yellow;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  border: 7px solid black
+}
+@media(max-width: 700px){
+  h1{
+    text-align: center;
+    font-size: 2rem;
+  }
+  .boxes{
+    
+    width: 400px;
+    height: 100%;
+    margin-bottom: 50px;
+  }
+  .red{
+    width: 140px;
+    height: 140px;
+  }
+  .blue{
+    width: 140px;
+    height: 140px;
+  }
+  .green{
+    width: 140px;
+    height: 140px;
+  }
+  .yellow{
+    width: 140px;
+    height: 140px;
+  }
+}
+@media(max-width:500px){
+  body{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .red{
+    width: 120px;
+    height: 120px;
+  }
+  .blue{
+    width: 120px;
+    height: 120px;
+  }
+  .green{
+    width: 120px;
+    height: 120px;
+  }
+  .yellow{
+    width: 120px;
+    height: 120px;
+  }
+}
